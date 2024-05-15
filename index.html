@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Project</title>
+    <link rel="stylesheet" href="node_modules/planning-package/dist/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="arrow" id="prev">&lt;</div>
+        <div id="planning"></div>
+        <div class="arrow" id="next">&gt;</div>
+    </div>
+    <div id="selected-slot" class="selected-slot"></div>
+
+    <script>
+        // Définir la variable planningData ici
+        window.planningData = [
+        {
+            "date": "2021-05-21T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AM"
+            },
+            {
+                "slot": "PM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-22T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "PM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-23T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-25T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-26T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-27T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-28T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AM"
+            },
+            {
+                "slot": "PM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-29T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "PM"
+            }
+            ]
+        },
+        {
+            "date": "2021-05-30T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-01T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-02T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-03T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-04T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-05T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-06T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-07T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-08T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-09T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        },
+        {
+            "date": "2021-06-10T01:01:00.000Z",
+            "slots": [
+            {
+                "slot": "AMPM"
+            }
+            ]
+        }
+        ];
+    </script>
+    <script src="node_modules/planning-package/dist/index.js"></script>
+</body>
+</html>
